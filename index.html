@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q-R GENERATOR</title>
+    <link rel="shortcut icon" href="img/scan.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+
+ <main>
+  <h2>Qr Code Generator</h2>
+  <input id="input" type="text" placeholder="Text or Url">
+  <button onclick="generateQrCode()" id="generateBtn">Generate</button>
+  <div class="qrbox">
+    <img id="img" src="img/download.png" >
+  </div>
+  <button onclick="download()">Download</button>
+ </main>
+    
+<script src="main.js"></script>
+  </body>
+</html>
